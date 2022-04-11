@@ -5,12 +5,24 @@
 }
 
 .image{
-    max-width: 15vw;
-    max-height: 50vh;
+    min-width: 12rem;
+    min-height: 15rem;
     border-radius: 5rem;
+    pointer-events: none;
 }
+
 .block{
     display: flex;
     gap: 20px;
+    padding: 10px 0;
+}
+.container{
+    cursor: grab;
     overflow: hidden;
+    margin:  auto 23%;
+    background-color: hsl(236, 63%, 75%);
+}
+.wrapper{
+    background-color: hsl(19, 49%, 64%);
+
 }
